@@ -1,0 +1,64 @@
+                 model   n  MAPE_percent  MAE_points
+              rv20_ols 714      1.556928   96.002938
+         momentum5_ols 714      1.560950   96.295910
+historical_mean_return 714      1.564419   96.536903
+       unchanged_price 714      1.596519   98.489864
+year                  model   n  MAPE_percent
+2024 historical_mean_return 252      1.440006
+2024          momentum5_ols 252      1.438720
+2024               rv20_ols 252      1.455595
+2024        unchanged_price 252      1.489855
+2025 historical_mean_return 250      1.767180
+2025          momentum5_ols 250      1.757695
+2025               rv20_ols 250      1.756850
+2025        unchanged_price 250      1.816306
+2026 historical_mean_return 212      1.473202
+2026          momentum5_ols 212      1.474232
+2026               rv20_ols 212      1.441624
+2026        unchanged_price 212      1.464126
+{
+  "rv20_ols": {
+    "training_rows": 2203,
+    "predicted_return": 0.004610964023860211,
+    "predicted_price": 7627.408185148218,
+    "coefficients": [
+      -0.0019705155645129533,
+      0.03036847169149756
+    ]
+  },
+  "momentum5_ols": {
+    "training_rows": 2218,
+    "predicted_return": 0.0015246709057286886,
+    "predicted_price": 7603.97581357951,
+    "coefficients": [
+      0.0029612077352855525,
+      -0.04426156370509267
+    ]
+  },
+  "historical_mean_return": {
+    "training_rows": 2223,
+    "predicted_return": 0.0028769610871593352,
+    "predicted_price": 7614.242941420945,
+    "coefficients": []
+  },
+  "unchanged_price": {
+    "training_rows": 2223,
+    "predicted_return": 0.0,
+    "predicted_price": 7592.39990234375,
+    "coefficients": []
+  },
+  "metadata": {
+    "origin_date": "2026-11-12",
+    "target_date": "2026-11-20",
+    "official_information_cutoff": "2026-11-13 12:00 Europe/London",
+    "last_market_observation": "2026-11-12 US close",
+    "base_close": 7592.39990234375,
+    "RV20": 0.21672080357655338,
+    "momentum5": 0.03245562762147913,
+    "data_rows": 2229,
+    "data_sha256": "e94b73539051dd48395c8c9cbfec06b194354d6c8fd8c7f348055f58bfb35129",
+    "run_time_utc": "2026-11-13T16:34:11.199266+00:00",
+    "note": "Computation and CSV upload after official cutoff. All observations dated through 2026-11-12; exact source snapshot provenance and historical revision status unverified. This is a retrospective calculation, not a pre-cutoff run."
+  }
+}
+leakage: training targets <= origin enforced
