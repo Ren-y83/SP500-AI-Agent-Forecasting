@@ -1,0 +1,13 @@
+market: S&P 500 price index
+target: 2026-11-20 16:00 EST (21:00 GMT)
+unit: index points
+official_reference: S&P Dow Jones Indices official S&P 500 price-index close
+forecast_points: 7627.41
+official_information_cutoff: 2026-11-13 12:00 GMT
+last_input_market_observation: 2026-11-12 close
+model: RV20(20) expanding OLS, 8-calendar-day target
+calculation_after_cutoff: True
+human_approval: Submitter explicitly approved forecast of 7627.41 in ChatGPT conversation on 2026-11-13 after noon; no pre-cutoff approval claimed
+provenance_limitation: CSV original retrieval timestamp not established
+submission_mode: individual; teacher permission reported by submitter
+student_identifier: Yashi Ren | 25072242

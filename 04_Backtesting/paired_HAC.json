@@ -1,0 +1,38 @@
+{
+  "rv20_vs_unchanged": {
+    "comparison": "rv20_ols minus unchanged_price",
+    "n": 714,
+    "mean_APE_difference_pp": -0.03959095228928489,
+    "95CI": [
+      -0.07839958590923726,
+      -0.000782318669332524
+    ],
+    "t_stat": -1.9994736573448377,
+    "p_value": 0.045557129316517064,
+    "maxlags": 10
+  },
+  "rv20_vs_historical_mean": {
+    "comparison": "rv20_ols minus historical_mean_return",
+    "n": 714,
+    "mean_APE_difference_pp": -0.007490866625583246,
+    "95CI": [
+      -0.037393466369202065,
+      0.022411733118035574
+    ],
+    "t_stat": -0.4909883730851641,
+    "p_value": 0.6234346710329046,
+    "maxlags": 10
+  },
+  "rv20_vs_momentum5": {
+    "comparison": "rv20_ols minus momentum5_ols",
+    "n": 714,
+    "mean_APE_difference_pp": -0.004021884621010858,
+    "95CI": [
+      -0.03758010215045542,
+      0.02953633290843371
+    ],
+    "t_stat": -0.23489772662211109,
+    "p_value": 0.8142881141033494,
+    "maxlags": 10
+  }
+}

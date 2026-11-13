@@ -1,0 +1,5 @@
+CRITICAL LIMITATION: official information cutoff was 2026-11-13 12:00 GMT. The input market dates end 2026-11-12; however, the uploaded CSV and computation occurred after noon. This package does NOT establish that the exact input snapshot or final forecast was frozen by the official cutoff. No post-hoc sign-off can change the historical time of model execution. Submitter must disclose this and consult the module team if necessary.
+
+ORIGINAL DATA REQUEST LOG: unavailable; exact vendor download time unknown. Source attribution to Yahoo Finance via yfinance is based on described workflow, not independently verified HTTP logs.
+
+HUMAN APPROVAL: not provided in this chat. Do not change status to approved until actual submitter(s) review and confirm the exact forecast and responsibility.
